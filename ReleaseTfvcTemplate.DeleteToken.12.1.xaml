@@ -1,4 +1,4 @@
-﻿<Activity mc:Ignorable="sads sap sap2010" x:Class="TfsBuild.Process" this:Process.AutomatedTests="[{ New Microsoft.TeamFoundation.Build.Common.BuildParameter(&quot; { &quot;&quot;AssemblyFileSpec&quot;&quot;: &quot;&quot;**\\*test*.dll;**\\*test*.appx&quot;&quot;, &quot;&quot;RunSettingsFileName&quot;&quot;: null, &quot;&quot;TestCaseFilter&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;RunSettingsForTestRun&quot;&quot;: { &quot;&quot;ServerRunSettingsFile&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;TypeRunSettings&quot;&quot;: &quot;&quot;Default&quot;&quot;, &quot;&quot;HasRunSettingsFile&quot;&quot;: false }, &quot;&quot;HasRunSettingsFile&quot;&quot;: false, &quot;&quot;HasTestCaseFilter&quot;&quot;: false, &quot;&quot;ExecutionPlatform&quot;&quot;: &quot;&quot;X86&quot;&quot;, &quot;&quot;FailBuildOnFailure&quot;&quot;: false, &quot;&quot;RunName&quot;&quot;: &quot;&quot;&quot;&quot; } &quot;) }]" this:Process.AdvancedTestSettings="[New Microsoft.TeamFoundation.Build.Common.BuildParameter(&quot; { &quot;&quot;AnalyzeTestImpact&quot;&quot;: true, &quot;&quot;DisableTests&quot;&quot;: false, &quot;&quot;PreActionScriptPath&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;PreActionScriptArguments&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;PostActionScriptPath&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;PostActionScriptArguments&quot;&quot;: &quot;&quot;&quot;&quot; } &quot;)]" this:Process.BuildNumberFormat="[&quot;$(BuildDefinitionName)_$(Date:yyyyMMdd)$(Rev:.r)&quot;]" this:Process.CleanWorkspace="[True]" this:Process.CreateLabel="[True]" this:Process.AdvancedBuildSettings="[New Microsoft.TeamFoundation.Build.Common.BuildParameter(&quot; { &quot;&quot;MSBuildArguments&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;MSBuildPlatform&quot;&quot;: &quot;&quot;Auto&quot;&quot;, &quot;&quot;PreActionScriptPath&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;PreActionScriptArguments&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;PostActionScriptPath&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;PostActionScriptArguments&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;RunCodeAnalysis&quot;&quot;: &quot;&quot;AsConfigured&quot;&quot; } &quot;)]" this:Process.AgentSettings="[New Microsoft.TeamFoundation.Build.Common.BuildParameter(&quot; { &quot;&quot;MaxExecutionTime&quot;&quot;: &quot;&quot;00:00:00&quot;&quot;, &quot;&quot;MaxWaitTime&quot;&quot;: &quot;&quot;04:00:00&quot;&quot;, &quot;&quot;Name&quot;&quot;: &quot;&quot;*&quot;&quot;, &quot;&quot;Tags&quot;&quot;: [], &quot;&quot;TagComparison&quot;&quot;: &quot;&quot;MatchExactly&quot;&quot; } &quot;)]" this:Process.CleanBuild="[True]" this:Process.OutputLocation="[&quot;SingleFolder&quot;]" this:Process.CreateWorkItem="[True]" this:Process.UpdateAssociatedWorkItems="[True]" this:Process.SupportedReasons="All" this:Process.BuildProcessVersion="12.0" this:Process.ReleaseBuild="False"
+﻿<Activity mc:Ignorable="sads sap sap2010" x:Class="TfsBuild.Process" this:Process.AutomatedTests="[{ New Microsoft.TeamFoundation.Build.Common.BuildParameter(&quot; { &quot;&quot;AssemblyFileSpec&quot;&quot;: &quot;&quot;**\\*test*.dll;**\\*test*.appx&quot;&quot;, &quot;&quot;RunSettingsFileName&quot;&quot;: null, &quot;&quot;TestCaseFilter&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;RunSettingsForTestRun&quot;&quot;: { &quot;&quot;ServerRunSettingsFile&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;TypeRunSettings&quot;&quot;: &quot;&quot;Default&quot;&quot;, &quot;&quot;HasRunSettingsFile&quot;&quot;: false }, &quot;&quot;HasRunSettingsFile&quot;&quot;: false, &quot;&quot;HasTestCaseFilter&quot;&quot;: false, &quot;&quot;ExecutionPlatform&quot;&quot;: &quot;&quot;X86&quot;&quot;, &quot;&quot;FailBuildOnFailure&quot;&quot;: false, &quot;&quot;RunName&quot;&quot;: &quot;&quot;&quot;&quot; } &quot;) }]" this:Process.AdvancedTestSettings="[New Microsoft.TeamFoundation.Build.Common.BuildParameter(&quot; { &quot;&quot;AnalyzeTestImpact&quot;&quot;: true, &quot;&quot;DisableTests&quot;&quot;: false, &quot;&quot;PreActionScriptPath&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;PreActionScriptArguments&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;PostActionScriptPath&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;PostActionScriptArguments&quot;&quot;: &quot;&quot;&quot;&quot; } &quot;)]" this:Process.BuildNumberFormat="[&quot;$(BuildDefinitionName)_$(Date:yyyyMMdd)$(Rev:.r)&quot;]" this:Process.CleanWorkspace="[True]" this:Process.CreateLabel="[True]" this:Process.AdvancedBuildSettings="[New Microsoft.TeamFoundation.Build.Common.BuildParameter(&quot; { &quot;&quot;MSBuildArguments&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;MSBuildPlatform&quot;&quot;: &quot;&quot;Auto&quot;&quot;, &quot;&quot;PreActionScriptPath&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;PreActionScriptArguments&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;PostActionScriptPath&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;PostActionScriptArguments&quot;&quot;: &quot;&quot;&quot;&quot;, &quot;&quot;RunCodeAnalysis&quot;&quot;: &quot;&quot;AsConfigured&quot;&quot; } &quot;)]" this:Process.AgentSettings="[New Microsoft.TeamFoundation.Build.Common.BuildParameter(&quot; { &quot;&quot;MaxExecutionTime&quot;&quot;: &quot;&quot;00:00:00&quot;&quot;, &quot;&quot;MaxWaitTime&quot;&quot;: &quot;&quot;04:00:00&quot;&quot;, &quot;&quot;Name&quot;&quot;: &quot;&quot;*&quot;&quot;, &quot;&quot;Tags&quot;&quot;: [], &quot;&quot;TagComparison&quot;&quot;: &quot;&quot;MatchExactly&quot;&quot; } &quot;)]" this:Process.CleanBuild="[True]" this:Process.OutputLocation="[&quot;SingleFolder&quot;]" this:Process.CreateWorkItem="[True]" this:Process.UpdateAssociatedWorkItems="[True]" this:Process.SupportedReasons="All" this:Process.BuildProcessVersion="12.0" this:Process.ReleaseBuild="False" this:Process.DeleteProcessedTokens="False"
  xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
  xmlns:mt="clr-namespace:Microsoft.TeamFoundation;assembly=Microsoft.TeamFoundation.Common"
@@ -18,6 +18,9 @@
  xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities"
  xmlns:mw="clr-namespace:Microsoft.Win32;assembly=mscorlib"
  xmlns:s="clr-namespace:System;assembly=mscorlib"
+ xmlns:s1="clr-namespace:System;assembly=System.ComponentModel.Composition"
+ xmlns:s2="clr-namespace:System;assembly=System.Core"
+ xmlns:s3="clr-namespace:System;assembly=System"
  xmlns:sa="clr-namespace:System.Activities;assembly=System.Activities"
  xmlns:sad="clr-namespace:System.Activities.Debugger;assembly=System.Activities"
  xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
@@ -54,6 +57,7 @@
     <x:Property Name="ReleaseTokensFolderPath" Type="InArgument(x:String)" />
     <x:Property Name="ReleaseTargetStage" Type="InArgument(x:String)" />
     <x:Property Name="DropBuild" Type="InArgument(x:Boolean)" />
+    <x:Property Name="DeleteProcessedTokens" Type="InArgument(x:Boolean)" />
   </x:Members>
   <this:Process.ProjectsToBuild>
     <InArgument x:TypeArguments="s:String[]" />
@@ -120,6 +124,7 @@
       <mtbw:ProcessParameterMetadata BrowsableWhen="Always" Category="#500 Release" Description="Set this to True to indicate you want this build to be released using the Release Management Server." DisplayName="Release Build" ParameterName="ReleaseBuild" />
       <mtbw:ProcessParameterMetadata Category="#500 Release" Description="Specify the relative path where to process tokens. Leave blank to search through the entire source location." DisplayName="Release Tokens Folder Path" ParameterName="ReleaseTokensFolderPath" />
       <mtbw:ProcessParameterMetadata Category="#500 Release" Description="Specify the Target Stage for the Release. Leave blank to allow the Release to go through all the Stages defined in the Release Path." DisplayName="Release Target Stage" ParameterName="ReleaseTargetStage" />
+      <mtbw:ProcessParameterMetadata BrowsableWhen="Always" Category="#500 Release" Description="Set this to true to delete the .token files after processing" DisplayName="Delete Processed Tokens?" ParameterName="DeleteProcessedTokens" />
     </mtbw:ProcessParameterMetadataCollection>
   </this:Process.Metadata>
   <this:Process.ConfigurationsToRelease>
@@ -179,18 +184,26 @@
                             <InArgument x:TypeArguments="x:String">[fileToRename]</InArgument>
                             <InArgument x:TypeArguments="si:FileAttributes">[FileAttributes.Normal]</InArgument>
                           </InvokeMethod>
-                          <InvokeMethod DisplayName="Remove read-only flag from x.y.token" sap2010:WorkflowViewState.IdRef="InvokeMethod_4" MethodName="SetAttributes" TargetType="si:File">
-                            <InArgument x:TypeArguments="x:String">[tokenFile]</InArgument>
-                            <InArgument x:TypeArguments="si:FileAttributes">[FileAttributes.Normal]</InArgument>
-                          </InvokeMethod>
                           <InvokeMethod DisplayName="Copy x.y.token to x.y" sap2010:WorkflowViewState.IdRef="InvokeMethod_2" MethodName="Copy" TargetType="si:File">
                             <InArgument x:TypeArguments="x:String">[tokenFile]</InArgument>
                             <InArgument x:TypeArguments="x:String">[fileToRename]</InArgument>
                             <InArgument x:TypeArguments="x:Boolean">True</InArgument>
                           </InvokeMethod>
-                          <InvokeMethod DisplayName="Remove x.y.token" sap2010:WorkflowViewState.IdRef="InvokeMethod_3" MethodName="Delete" TargetType="si:File">
-                            <InArgument x:TypeArguments="x:String">[tokenFile]</InArgument>
-                          </InvokeMethod>
+                          <If Condition="[DeleteProcessedTokens]" DisplayName="If DeleteProcessedTokens is set">
+                            <If.Then>
+                              <Sequence DisplayName="Remove Token">
+                                <InvokeMethod DisplayName="Remove read-only flag from x.y.token" sap2010:WorkflowViewState.IdRef="InvokeMethod_4" MethodName="SetAttributes" TargetType="si:File">
+                                  <InArgument x:TypeArguments="x:String">[tokenFile]</InArgument>
+                                  <InArgument x:TypeArguments="si:FileAttributes">[FileAttributes.Normal]</InArgument>
+                                </InvokeMethod>
+                                <InvokeMethod DisplayName="Remove x.y.token" sap2010:WorkflowViewState.IdRef="InvokeMethod_3" MethodName="Delete" TargetType="si:File">
+                                  <InArgument x:TypeArguments="x:String">[tokenFile]</InArgument>
+                                </InvokeMethod>
+                                <sap2010:WorkflowViewState.IdRef>Sequence_6</sap2010:WorkflowViewState.IdRef>
+                              </Sequence>
+                            </If.Then>
+                            <sap2010:WorkflowViewState.IdRef>If_3</sap2010:WorkflowViewState.IdRef>
+                          </If>
                         </Sequence>
                       </ActivityAction>
                     </ForEach>
@@ -325,34 +338,42 @@
     <mtbwa:InvokeForReason DisplayName="Check In Gated Changes for CheckInShelveset Builds" sap2010:WorkflowViewState.IdRef="InvokeForReason_1" Reason="CheckInShelveset">
       <mtbwa:CheckInGatedChanges DisplayName="Check In Gated Changes" />
     </mtbwa:InvokeForReason>
-    <sads:DebugSymbol.Symbol>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</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>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</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
-      <sap2010:ViewStateData Id="SetBuildNumber_1" sap:VirtualizedContainerService.HintSize="625,22" />
-      <sap2010:ViewStateData Id="InitializeEnvironment_1" sap:VirtualizedContainerService.HintSize="603,22" />
-      <sap2010:ViewStateData Id="TfGetSources_1" sap:VirtualizedContainerService.HintSize="603,22" />
-      <sap2010:ViewStateData Id="AssociateChanges_1" sap:VirtualizedContainerService.HintSize="603,22" />
-      <sap2010:ViewStateData Id="RunScript_1" sap:VirtualizedContainerService.HintSize="563,22" />
-      <sap2010:ViewStateData Id="RunMSBuild_1" sap:VirtualizedContainerService.HintSize="563,22" />
-      <sap2010:ViewStateData Id="RunScript_2" sap:VirtualizedContainerService.HintSize="563,22" />
-      <sap2010:ViewStateData Id="GetBuildDirectory_1" sap:VirtualizedContainerService.HintSize="541,22" />
-      <sap2010:ViewStateData Id="Assign_1" sap:VirtualizedContainerService.HintSize="294,60" />
-      <sap2010:ViewStateData Id="FindMatchingFiles_1" sap:VirtualizedContainerService.HintSize="294,22" />
-      <sap2010:ViewStateData Id="Assign_2" sap:VirtualizedContainerService.HintSize="242,60" />
-      <sap2010:ViewStateData Id="InvokeMethod_1" sap:VirtualizedContainerService.HintSize="242,128" />
-      <sap2010:ViewStateData Id="InvokeMethod_4" sap:VirtualizedContainerService.HintSize="242,128" />
-      <sap2010:ViewStateData Id="InvokeMethod_2" sap:VirtualizedContainerService.HintSize="242,128" />
-      <sap2010:ViewStateData Id="InvokeMethod_3" sap:VirtualizedContainerService.HintSize="242,128" />
-      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="264,856">
+      <sap2010:ViewStateData Id="SetBuildNumber_1" sap:VirtualizedContainerService.HintSize="847,22" />
+      <sap2010:ViewStateData Id="InitializeEnvironment_1" sap:VirtualizedContainerService.HintSize="825,22" />
+      <sap2010:ViewStateData Id="TfGetSources_1" sap:VirtualizedContainerService.HintSize="825,22" />
+      <sap2010:ViewStateData Id="AssociateChanges_1" sap:VirtualizedContainerService.HintSize="825,22" />
+      <sap2010:ViewStateData Id="RunScript_1" sap:VirtualizedContainerService.HintSize="785,22" />
+      <sap2010:ViewStateData Id="RunMSBuild_1" sap:VirtualizedContainerService.HintSize="785,22" />
+      <sap2010:ViewStateData Id="RunScript_2" sap:VirtualizedContainerService.HintSize="785,22" />
+      <sap2010:ViewStateData Id="GetBuildDirectory_1" sap:VirtualizedContainerService.HintSize="763,22" />
+      <sap2010:ViewStateData Id="Assign_1" sap:VirtualizedContainerService.HintSize="516,60" />
+      <sap2010:ViewStateData Id="FindMatchingFiles_1" sap:VirtualizedContainerService.HintSize="516,22" />
+      <sap2010:ViewStateData Id="Assign_2" sap:VirtualizedContainerService.HintSize="464,60" />
+      <sap2010:ViewStateData Id="InvokeMethod_1" sap:VirtualizedContainerService.HintSize="464,128" />
+      <sap2010:ViewStateData Id="InvokeMethod_2" sap:VirtualizedContainerService.HintSize="464,128" />
+      <sap2010:ViewStateData Id="InvokeMethod_4" sap:VirtualizedContainerService.HintSize="218,128" />
+      <sap2010:ViewStateData Id="InvokeMethod_3" sap:VirtualizedContainerService.HintSize="218,128" />
+      <sap2010:ViewStateData Id="Sequence_6" sap:VirtualizedContainerService.HintSize="240,420">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="ForEach`1_1" sap:VirtualizedContainerService.HintSize="294,1004" />
-      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="316,1290">
+      <sap2010:ViewStateData Id="If_3" sap:VirtualizedContainerService.HintSize="464,568" />
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="486,1128">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="ForEach`1_1" sap:VirtualizedContainerService.HintSize="516,1276" />
+      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="538,1562">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -360,16 +381,16 @@
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="WriteBuildMessage_1" sap:VirtualizedContainerService.HintSize="200,22" />
-      <sap2010:ViewStateData Id="If_1" sap:VirtualizedContainerService.HintSize="541,1438" />
-      <sap2010:ViewStateData Id="If_2" sap:VirtualizedContainerService.HintSize="541,208" />
-      <sap2010:ViewStateData Id="Sequence_3" sap:VirtualizedContainerService.HintSize="563,1872">
+      <sap2010:ViewStateData Id="If_1" sap:VirtualizedContainerService.HintSize="763,1710" />
+      <sap2010:ViewStateData Id="If_2" sap:VirtualizedContainerService.HintSize="763,208" />
+      <sap2010:ViewStateData Id="Sequence_3" sap:VirtualizedContainerService.HintSize="785,2144">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Sequence_4" sap:VirtualizedContainerService.HintSize="585,2482">
+      <sap2010:ViewStateData Id="Sequence_4" sap:VirtualizedContainerService.HintSize="807,2754">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -383,17 +404,17 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="TryCatch_1" sap:VirtualizedContainerService.HintSize="603,2709" />
-      <sap2010:ViewStateData Id="AgentScope_1" sap:VirtualizedContainerService.HintSize="625,3019" />
+      <sap2010:ViewStateData Id="TryCatch_1" sap:VirtualizedContainerService.HintSize="825,2981" />
+      <sap2010:ViewStateData Id="AgentScope_1" sap:VirtualizedContainerService.HintSize="847,3291" />
       <sap2010:ViewStateData Id="InvokeForReason_1" sap:VirtualizedContainerService.HintSize="440,144" />
-      <sap2010:ViewStateData Id="Sequence_5" sap:VirtualizedContainerService.HintSize="647,3389">
+      <sap2010:ViewStateData Id="Sequence_5" sap:VirtualizedContainerService.HintSize="869,3661">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="TfsBuild.Process_1" sap:VirtualizedContainerService.HintSize="687,3469" />
+      <sap2010:ViewStateData Id="TfsBuild.Process_1" sap:VirtualizedContainerService.HintSize="909,3741" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
